@@ -24,11 +24,11 @@ The site visualize data from 2012 to 2017. The user can select the year and filt
 
 ## Wireframe
 
-![](https://raw.githubusercontent.com/bkim3395/Divide/master/Wireframe.jpg)
+![](https://raw.githubusercontent.com/bkim3395/nycParticipates/master/Wireframe.jpg)
 
 Timeline:
 
-Day 1: Implement Google Map and GeoJSON
-Day 2: Implement d3.js and features into the site
-Day 3: Implement visualization of data on Google Map and basic filtering by year
-Day 4: Implement seeing details and advanced filtering
++ Day 1: Implement Google Map and GeoJSON
++ Day 2: Implement d3.js and features into the site
++ Day 3: Implement visualization of data on Google Map and basic filtering by year
++ Day 4: Implement seeing details and advanced filtering
