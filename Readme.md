@@ -24,7 +24,7 @@ The site visualize data from 2012 to 2017. The user can select the year and filt
 
 ## Wireframe
 
-![](https://raw.githubusercontent.com/bkim3395/nycParticipates/master/Wireframe.jpg)
+![](https://raw.githubusercontent.com/bkim3395/nycParticipates/master/wireframe.jpg)
 
 Timeline:
 
