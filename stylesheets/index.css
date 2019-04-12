@@ -95,6 +95,14 @@ svg{
     margin: 0;
 }
 
+.loser{
+    color: red;
+}
+
+.winner{
+    color: green;
+}
+
 /* html, body{
     margin: 0;
     padding: 0;
