@@ -41,6 +41,38 @@ html, body{
     margin: 10px 0;
 }
 
+#selector-container{
+    margin-bottom: 10px;
+}
+
+#selector-container span{
+    margin-right: 10px;
+}
+
+#personal-information{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#personal-information i{
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+        transition:         transform .8s ease-in-out;
+}
+
+#personal-information i:hover{
+    -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+}
+
+#personal-information a{
+    text-decoration: none;
+}
+
 #details-container{
     position: absolute;
     top: 0;
