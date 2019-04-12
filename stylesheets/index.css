@@ -1,0 +1,82 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow:hidden;
+}
+
+#site-container{
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+}
+
+#title-container{
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    background: black;
+}
+
+#details-container{
+    position: absolute;
+    top: 0;
+    left: 70vw;
+    height: 100vh;
+    width: 30vw;
+    background: red;
+    /* z-index: 500; */
+}
+
+#map-container{
+    height: 100%;
+    width: 70vw;
+}
+
+svg{
+    /* border: 3px solid red; */
+    height: 100%;
+    width: 70vw;
+    margin: 0;
+}
+
+/* html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow:hidden;
+}
+
+#site-container{
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+}
+
+#title-container{
+    position: absolute;
+    height: 50vh;
+    width: 20vh;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    background: black;
+}
+
+#details-container{
+    height: 100vh;
+    /* width: 30vh; */
+}
+
+#map-container{
+    height: 100vh;
+    width: 100vh;
+}
+
+svg{
+    height: 100vh;
+    margin: 0;
+} */

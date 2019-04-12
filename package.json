@@ -1,0 +1,35 @@
+{
+  "name": "nycParticipate",
+  "version": "1.0.0",
+  "description": "Visualization of NYC PBP",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkim3395/nycParticipates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkim3395/nycParticipates/issues"
+  },
+  "homepage": "https://github.com/bkim3395/nycParticipates#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "d3-geo": "^1.11.3",
+    "live-server": "^1.2.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
+  }
+}
