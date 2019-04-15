@@ -3,6 +3,11 @@
 (Note to TAs: I am not sure how ambitious/hard this project is. I made a backup proposal here:
 https://github.com/bkim3395/Divide)
 
+# Note to the TAs)(4/15/19)
+
+Unfortunately, I got stuck in the middle and wasn't able to finish all the way. However, execpt for filtering by categories, all features have been implemented. The rest is adding filtering (which will take few hours after class) and CSS.
+
+
 ## Introduction
 
 The site visualize data from 2012 to 2017. The user can select the year and filter by categories and city council districts. Each dot in the Google Map API will represent the project that has passed. By clicking on the dot, it will show the details such as title, descriptions, money assigned to the project and so on. 
