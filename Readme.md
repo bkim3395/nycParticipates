@@ -5,7 +5,7 @@ https://github.com/bkim3395/Divide)
 
 # Note to the TAs)(4/15/19)
 
-Unfortunately, I got stuck in the middle and wasn't able to finish all the way. However, execpt for filtering by categories, all features have been implemented. The rest is adding filtering (which will take few hours after class) and CSS.
+All features implemented. Need to work on CSS. I will not be implementing Google Map API
 
 
 ## Introduction
@@ -24,7 +24,6 @@ The site visualize data from 2012 to 2017. The user can select the year and filt
 ## Technologies Implemented
 
 + D3.js
-+ Google Map API
 + Javascript
 
 ## Wireframe
@@ -33,7 +32,7 @@ The site visualize data from 2012 to 2017. The user can select the year and filt
 
 Timeline:
 
-+ Day 1: Implement Google Map and GeoJSON
++ Day 1: Implement GeoJSON
 + Day 2: Implement d3.js and features into the site
-+ Day 3: Implement visualization of data on Google Map and basic filtering by year
++ Day 3: Implement visualization of data and basic filtering by year
 + Day 4: Implement seeing details and advanced filtering
