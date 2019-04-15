@@ -5,6 +5,10 @@ html, body{
     overflow:hidden;
 }
 
+select{
+    cursor: pointer;
+}
+
 #site-container{
     display: flex;
     height: 100vh;
@@ -136,11 +140,19 @@ svg{
 }
 
 .city-district-title span{
-    margin-bottom: 15px;
+    /* margin-bottom: 2px; */
     font-size: 17px;
+}
+
+.list-proposals li{
+    cursor: pointer;
 }
 
 .project-details{
     display: flex;
     flex-direction: column;
+}
+
+.details-button{
+    cursor: pointer;
 }
