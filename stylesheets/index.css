@@ -66,8 +66,13 @@ select{
 } */
 
 #selector-container span{
-    margin-right: 10px;
+    margin-right: 5px;
 }
+
+#category-selector-container span{
+    margin-right: 5px;
+}
+
 
 #pi-container{
     display: flex;
@@ -154,14 +159,15 @@ svg{
 }
 
 .city-district-title h2{
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .city-district-title h1{
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 5px;
-    font-size: 65px;
+    font-size: 90px;
 }
 
 .city-district-title span{
@@ -183,6 +189,16 @@ svg{
     flex-direction: column;
 }
 
+.project-details h2{
+    font-size: 24px;
+}
+
+.project-details span{
+    margin: 3px 0;
+}
+
 .details-button{
+    margin-top: 20px;
     cursor: pointer;
+    padding: 5px;
 }
