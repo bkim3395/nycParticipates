@@ -3,6 +3,8 @@ html, body{
     padding: 0;
     height: 100vh;
     overflow:hidden;
+    font-family: 'IBM Plex Sans', sans-serif;
+
 }
 
 select{
@@ -20,13 +22,25 @@ select{
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
-    height: 50vh;
-    width: 50vh;
+    height: 55vh;
+    width: 55vh;
     z-index: 999;
     padding: 10px;
     top: 0px;
     left: 0px;
     background: white;
+}
+
+#title-other-container{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+#title-container:not(h1){
+    font-size: 1.1vw;
 }
 
 #title-container img{
@@ -38,25 +52,32 @@ select{
 }
 
 #title h1{
+    font-size: 2.5vw;
     margin-bottom: 0;
+    margin-top: 5px;
 }
 
 #title-description{
-    margin: 10px 0;
+    margin: 0;
 }
 
-#selector-container{
+/* #selector-container{
     margin-bottom: 10px;
-}
+} */
 
 #selector-container span{
     margin-right: 10px;
 }
 
+#pi-container{
+    display: flex;
+    justify-content: center;
+}
+
 #personal-information{
     display: flex;
     width: 70%;
-    margin: auto;
+    /* margin: auto; */
     justify-content: space-around;
 }
 
@@ -99,9 +120,12 @@ select{
     max-height: 100%;
 }
 
-/* #intial-details-container img:last-child{
-    margin-bottom: 50px;
-} */
+#initial-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
 
 #map-container{
     height: 100vh;
