@@ -81,6 +81,7 @@ select{
     position: absolute;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     /* justify-content: space-around; */
     top: 0;
     left: 70vw;
@@ -142,6 +143,11 @@ svg{
 .city-district-title span{
     /* margin-bottom: 2px; */
     font-size: 17px;
+}
+
+.list-proposals{
+    overflow: auto;
+    padding-left: 20px;
 }
 
 .list-proposals li{
