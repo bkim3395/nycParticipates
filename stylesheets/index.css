@@ -23,7 +23,7 @@ select{
     flex-direction: column;
     /* justify-content: space-around; */
     height: 55vh;
-    width: 55vh;
+    width: 45vh;
     z-index: 999;
     padding: 10px;
     top: 0px;
