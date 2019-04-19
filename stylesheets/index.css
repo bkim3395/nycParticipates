@@ -75,13 +75,11 @@ select{
 
 
 #pi-container{
-    display: flex;
-    justify-content: center;
 }
 
 #personal-information{
     display: flex;
-    width: 70%;
+    width: 100%;
     /* margin: auto; */
     justify-content: space-around;
 }
