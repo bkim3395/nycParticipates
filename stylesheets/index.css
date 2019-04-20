@@ -182,6 +182,8 @@ svg{
 
 .list-proposals li{
     cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .project-details{
