@@ -23,7 +23,7 @@ Clicking on the project renders the information about the project, such as categ
 [Feature_2]:https://raw.githubusercontent.com/bkim3395/nycParticipates/master/images/Feature_3.gif "Feature_2"
 ![alt-text][Feature_2]
 
-The user can select specific project of interest by clicking an corresponding circle. The app will show information of the specific project and the circle will turn white. Pressing the "Go Back" button will render the information on the project's district. The circle becomes larger when mouse hovers over it and returns to original size when mouse leaves.
+The user can select specific project of interest by clicking an corresponding circle. The app will show information about the specific project and the circle will turn white. Pressing the "Go Back" button will render the information about the project's district. The circle becomes larger when mouse hovers over and returns to original size when mouse leaves.
 
 ## Implementation
 
