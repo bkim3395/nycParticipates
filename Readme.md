@@ -20,7 +20,7 @@ The user can select the projects by specific year, categories, and city council 
 The circle becomes larger when mouse hovers over it and returns to original size when mouse leaves. Clicking on the project renders the information about the project, such as category, the year it was voted on, description, address, the votes it received and the cost of the project.
 
 
-[Feature_2]:https://raw.githubusercontent.com/bkim3395/nycParticipates/master/images/image_2.gif "Feature_2"
+[Feature_2]:https://raw.githubusercontent.com/bkim3395/nycParticipates/master/images/Feature_3.gif "Feature_2"
 ![alt-text][Feature_2]
 
 The user can select specific project of interest by clicking an corresponding circle. The app will show information of the specific project and the circle will turn white. Pressing the "Go Back" button will render the information on the project's district.
