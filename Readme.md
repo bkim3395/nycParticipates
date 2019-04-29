@@ -1,6 +1,6 @@
 # NYC Participates!
 
-[Live Site](https://bkim3395.github.io/nycParticipates/)
+[Live Site](http://bumsookim.net/nycParticipates/)
 
 NYC Participates is a data visualization of NYC Participatory Budgeting Projects between 2012 and 2017.
 
