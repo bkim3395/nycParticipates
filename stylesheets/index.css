@@ -34,16 +34,17 @@ select{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    height: 30vh;
+    justify-content: space-around;
+    height: 34vh;
     width: 50vw;
     z-index: 999;
-    padding: 20px;
-    top: 70vh;
+    /* padding: vh; */
+    top: 66vh;
     background: white;
 }
 
 #title-other-container{
-    margin: 2vh 0;
+    margin: 1vh 0;
 }
 
 #title-container:not(h1){
