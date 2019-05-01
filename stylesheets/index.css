@@ -1,7 +1,10 @@
 html, body{
+    /* -webkit-box-sizing: border-box;
+    box-sizing: border-box; */
     margin: 0;
     padding: 0;
     height: 100vh;
+    /* min-height: 350px; */
     overflow:hidden;
     font-family: 'IBM Plex Sans', sans-serif;
 
@@ -62,7 +65,7 @@ select{
 }
 
 #title h1{
-    font-size: 2.5vh;
+    font-size: 3vh;
     /* margin-bottom: 3px;
     margin-top: 5px; */
 }
@@ -121,7 +124,6 @@ select{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    /* justify-content: space-around; */
     /* top: 0;
     left: 70vw; */
     height: 100vh;
@@ -192,6 +194,7 @@ svg{
 .list-proposals{
     overflow: auto;
     padding-left: 20px;
+    margin: 1vh, 0;
 }
 
 .list-proposals li{
