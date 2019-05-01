@@ -211,7 +211,7 @@ svg{
 }
 
 .project-details span{
-    font-size: 3vh;
+    font-size: 2vh;
     margin: 3px 0;
 }
 
@@ -225,6 +225,11 @@ svg{
 .button-cover{
     display: flex;
     justify-content: center;
+}
+
+select{
+    padding: 0;
+    font-size: 2vh;
 }
 
 @media screen and (max-width: 800px) {
@@ -264,4 +269,9 @@ svg{
         width: 70%;
     }
 
+    select{
+    font-size: 1vh;
+    }   
+
 }
+
