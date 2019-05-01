@@ -37,7 +37,7 @@ select{
     justify-content: space-between;
     height: 70vh;
     width: 50vw;
-    z-index: 999;
+    /* z-index: 999; */
     padding: 20px;
     /* top: 0px;
     left: 0px; */
@@ -72,7 +72,7 @@ select{
 
 #personal-information i{
     color: black;
-    font-size: 2.5vh;
+    font-size: 3vh;
     text-decoration: none;
     -webkit-transition: -webkit-transform .8s ease-in-out;
         transition:         transform .8s ease-in-out;
@@ -131,7 +131,6 @@ select{
     padding: 20px;
     background: white;
     font-size: 2vh;
-    /* z-index: 500; */
 }
 
 #initial-details-container img{
@@ -237,44 +236,114 @@ select{
 
 @media screen and (max-width: 800px) {
 
+    html, body{
+    /* -webkit-box-sizing: border-box;
+    box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    /* min-height: 350px; */
+    overflow: visible;
+    }
+
+    #site-container{
+        flex-direction: column;
+    }
+
+    #half-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    /* height: 100vh; */
+    }
+
+    #title-container{
+    /* height: 70vh; */
+    width: 100vw;
+    /* z-index: 0; */
+    padding: 20px;
+    /* top: 0px;
+    left: 0px; */
+    background: white;
+    }
+
+    #details-container{
+    width: 100vw;
+    }
+
+    #map-container{
+    height: 100vh;
+    width: 100vw;
+    }
+
+    svg{
+    /* border: 3px solid red; */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    }
+
+
     #title h1{
-        font-size: 1.3vh;
+        font-size: 5vh;
         /* margin-bottom: 3px;
         margin-top: 5px; */
     }
 
     #title-container:not(h1){
-    font-size: 1vh;
+    font-size: 4vh;
     }
 
     #personal-information i{
     color: black;
-    font-size: 1.3vh;
+    font-size: 5vh;
     text-decoration: none;
     -webkit-transition: -webkit-transform .8s ease-in-out;
         transition:         transform .8s ease-in-out;
     }
     
     .project-details h2{
-    font-size: 1.3vh;
+    font-size: 5vh;
     margin: 2vh 0;
     }
 
     .project-details span{
-        font-size: 1vh;
+        font-size: 4vh;
         margin: 2px 0;
     }
 
     .details-button{
         margin-top: 20px;
         cursor: pointer;
-        padding: 0.5vh;
+        padding: 1vh;
         width: 70%;
     }
 
     select{
-    font-size: 1vh;
+    font-size: 4vh;
     }   
+
+    .city-district-title h2{
+    font-size: 5vh;
+    }
+
+    .city-district-title h1{
+        font-size: 12vh;
+    }
+
+    .city-district-title span{
+    /* margin-bottom: 2px; */
+    font-size: 4vh;
+    }
+
+    .list-proposals{
+        margin: 4vh, 0;
+    }
+
+    .list-proposals li{
+        font-size: 4vh;
+    }
 
 }
 
