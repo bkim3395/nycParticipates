@@ -125,7 +125,7 @@ select{
     width: 50vw;
     padding: 20px;
     background: white;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 #initial-details-container img{
@@ -188,7 +188,7 @@ svg{
 .list-proposals{
     overflow: auto;
     padding-left: 20px;
-    margin: 1vh, 0;
+    margin: 1vw, 0;
 }
 
 .list-proposals li{
