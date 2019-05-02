@@ -125,7 +125,7 @@ select{
     width: 50vw;
     padding: 20px;
     background: white;
-    font-size: 2vh;
+    font-size: 3vh;
 }
 
 #initial-details-container img{
@@ -203,12 +203,12 @@ svg{
 }
 
 .project-details h2{
-    font-size: 4vh;
+    font-size: 5vh;
     margin: 2vh 0;
 }
 
 .project-details span{
-    font-size: 2vh;
+    font-size: 3vh;
     margin: 3px 0;
 }
 
@@ -334,11 +334,12 @@ select{
     }
 
     .list-proposals{
+        min-height: 60vh;
         margin: 4vh, 0;
     }
 
     .list-proposals li{
-        font-size: 4vh;
+        font-size: 3vh;
     }
 
     #title-other-container{
