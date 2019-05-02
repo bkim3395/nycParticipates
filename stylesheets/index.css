@@ -48,7 +48,7 @@ select{
 }
 
 #title-container:not(h1){
-    font-size: 2vh;
+    font-size: 2.3vh;
 }
 
 #title-container img{
@@ -125,7 +125,7 @@ select{
     width: 50vw;
     padding: 20px;
     background: white;
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 
 #initial-details-container img{
@@ -266,6 +266,10 @@ select{
 
     #details-container{
     width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     }
 
     #map-container{
@@ -320,6 +324,10 @@ select{
     font-size: 4vh;
     }   
 
+    .city-district-title{
+        height: 45vh;
+    }
+
     .city-district-title h2{
     font-size: 5vh;
     }
@@ -334,8 +342,8 @@ select{
     }
 
     .list-proposals{
-        min-height: 60vh;
-        margin: 4vh, 0;
+        height: 55vh;
+        margin: 0;
     }
 
     .list-proposals li{
