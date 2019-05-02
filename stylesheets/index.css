@@ -269,14 +269,14 @@ select{
     }
 
     #map-container{
-    height: 100vh;
+    height: 80vw;
     width: 100vw;
     }
 
     svg{
     /* border: 3px solid red; */
     width: 100vw;
-    height: 100vh;
+    height: 80vw;
     margin: 0;
     }
 
