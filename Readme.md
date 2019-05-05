@@ -25,10 +25,9 @@ Clicking on the project renders the information about the project, such as categ
 
 The user can select specific project of interest by clicking an corresponding circle. The app will show information about the specific project and the circle will turn white. Pressing the "Go Back" button will render the information about the project's district. The circle becomes larger when mouse hovers over and returns to original size when mouse leaves.
 
-[Feature_3]:https://raw.githubusercontent.com/bkim3395/nycParticipates/master/images/Responsive_Compressed.gif "Feature_3"
-![alt-text][Feature_3]
+<img src="https://raw.githubusercontent.com/bkim3395/nycParticipates/master/images/Responsive_Compressed.gif" width="250"/>
 
-Through media queries, the application is responsive at any screen size.
+Through media queries, the application is responsive at any screen size including smart phones.
 
 ## Implementation
 
