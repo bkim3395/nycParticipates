@@ -339,11 +339,11 @@ select{
 
     .city-district-title span{
     /* margin-bottom: 2px; */
-        font-size: 2vh;
+        font-size: 2.5vh;
     }
 
     .list-proposals{
-        height: 50vh;
+        height: 60vh;
         margin: 0;
     }
 
