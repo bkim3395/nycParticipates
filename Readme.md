@@ -2,13 +2,14 @@
 
 [Live Site](http://bumsookim.net/nycParticipates/)
 
-NYC Participates is a data visualization of citizens’ budgeting proposals between 2012 and 2017.
+NYC Participates is a data visualization of citizens’ budgeting proposals on NYC map.
 
 ## Technologies Used
 + Javascript
 + jQuery
 + D3.js
 + GeoJSON
++ Media Queries
 
 ## Features
 
@@ -27,7 +28,7 @@ The user can select specific project of interest by clicking an corresponding ci
 
 <img src="https://raw.githubusercontent.com/bkim3395/nycParticipates/master/images/Responsive_Compressed.gif" width="250"/>
 
-Through media queries, the application is responsive at any screen size including smart phones.
+Through media queries, the application is responsive at any screen size. Smartphone (Samsung Note 5) was used for the demonstration above.
 
 ## Implementation
 
