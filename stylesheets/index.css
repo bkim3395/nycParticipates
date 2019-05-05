@@ -325,7 +325,7 @@ select{
     }   
 
     .city-district-title{
-        height: 35vh;
+        height: 30vh;
     }
 
     .city-district-title h2{
@@ -333,7 +333,8 @@ select{
     }
 
     .city-district-title h1{
-        font-size: 9vh;
+        font-size: 7vh;
+        margin: 0;
     }
 
     .city-district-title span{
@@ -342,7 +343,7 @@ select{
     }
 
     .list-proposals{
-        height: 55vh;
+        height: 60vh;
         margin: 0;
     }
 
