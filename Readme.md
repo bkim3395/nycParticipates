@@ -2,7 +2,7 @@
 
 [Live Site](http://bumsookim.net/nycParticipates/)
 
-NYC Participates is a data visualization of NYC Participatory Budgeting Projects between 2012 and 2017.
+NYC Participates is a data visualization of citizens’ budgeting proposals between 2012 and 2017.
 
 ## Technologies Used
 + Javascript
@@ -24,6 +24,11 @@ Clicking on the project renders the information about the project, such as categ
 ![alt-text][Feature_2]
 
 The user can select specific project of interest by clicking an corresponding circle. The app will show information about the specific project and the circle will turn white. Pressing the "Go Back" button will render the information about the project's district. The circle becomes larger when mouse hovers over and returns to original size when mouse leaves.
+
+[Feature_3]:https://raw.githubusercontent.com/bkim3395/nycParticipates/master/images/Responsive_Compressed.gif "Feature_3"
+![alt-text][Feature_3]
+
+Through media queries, the application is responsive at any screen size.
 
 ## Implementation
 
